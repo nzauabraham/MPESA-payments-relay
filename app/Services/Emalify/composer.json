@@ -1,0 +1,19 @@
+{
+    "name": "emalify-oss/emalify-php-lite",
+    "description": "A zero dependency API client for Emalify Services",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leitato Albert",
+            "email": "albert.leitato@roamtech.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Emalify\\": "src/"
+        }
+    }
+}
