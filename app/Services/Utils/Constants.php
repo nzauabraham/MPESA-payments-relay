@@ -10,11 +10,10 @@ use Symfony\Component\HttpFoundation\Response;
 
 class Constants{
     //EMALIFY
-    public static $EMALI_CLIENT_ID = "aJr7ry5PDXkQ4chGQVyWlbsdADU0i3za";
-    public static $EMALI_CLIENT_SECRET = "K7C1yhp7X1wIQceXjJrt86SG77WJXWHQYT0vsVgw";
+    public static $EMALI_CLIENT_ID = "<YOUR-EMALIFY-CLIENT-ID>";
+    public static $EMALI_CLIENT_SECRET = "<YOUR-EMALIFY-CLIENT-SECRET>";
     public static $EMALI_TOKEN_ENDPOINT = "https://api.emalify.com/v1/oauth/token";
-    public static $PROJECT_ID = "oa0ebjmbyx4g7x3n";
-    public static $EMALIPAY_EMALI_PURCHASE_AIRTIME_ENDPOINT="https://api.emalify.com/v1/projects/oa0ebjmbyx4g7x3n/airtime/purchase";
+    public static $PROJECT_ID = "<YOUR-EMALIFY-PROJECT-ID>";
 
     //SAF
     public static $B2C_URL = "https://api.safaricom.co.ke/mpesa/b2c/v1/paymentrequest";

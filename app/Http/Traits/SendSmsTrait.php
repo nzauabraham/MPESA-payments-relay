@@ -24,7 +24,7 @@ trait SendSmsTrait{
 
             $messaging =  new Messaging( Constants::$EMALI_CLIENT_ID,  Constants::$EMALI_CLIENT_SECRET, Constants::$PROJECT_ID);
             $params = [
-                'from' => 'PayKit',
+                'from' => '<YOUR EMALIFY SENDER OR SHORTCODE>',
                 'api' => 'v2',
                 'messageId' => $outbox->id,
                 'linkId' => null,
